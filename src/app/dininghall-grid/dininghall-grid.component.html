@@ -1,0 +1,9 @@
+<div class="grid-container">
+  <div
+    class="grid-item"
+    *ngFor="let hall of diningHalls"
+    [style.backgroundImage]="'url(' + hall.image + ')'"
+  >
+    <app-dininghall [hall]="hall"></app-dininghall>
+  </div>
+</div>

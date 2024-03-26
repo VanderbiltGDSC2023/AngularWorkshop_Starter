@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "firebase",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-central1"
+      }
+    }
+  ]
+}

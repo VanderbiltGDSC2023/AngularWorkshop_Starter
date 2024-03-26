@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.grid-item {
+  border: 5px solid #aaa;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover; /* or 'contain' */
+  background-position: center 75%;
+}

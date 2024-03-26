@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "workshop7-f6f8b": {
+      "hosting": {
+        "firebase": [
+          "workshop7-f6f8b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "workshop7-f6f8b"
+  }
+}

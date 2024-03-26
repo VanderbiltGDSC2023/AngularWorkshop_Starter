@@ -1,0 +1,25 @@
+<div class="hall-container">
+  <h2 class="hall-name">{{ hall.name }}</h2>
+  <div class="items-container">
+    <div class="item-0">{{ hall.main_items[0] }}</div>
+
+    <div class="item-1">{{ hall.main_items[1] }}</div>
+
+    <div class="side-items">
+      <div
+        *ngFor="let item of hall.side_items; let i = index"
+        class="side-items-{{ i }}"
+      >
+        {{ item }}
+      </div>
+    </div>
+    <div class="grains">
+      <div
+        *ngFor="let item of hall.grains; let i = index"
+        class="grain-{{ i }}"
+      >
+        {{ item }}
+      </div>
+    </div>
+  </div>
+</div>
